@@ -1,0 +1,31 @@
+2026-05-26 15:15:46,124 INFO o.a.j.u.JMeterUtils: Setting Locale to en_EN
+2026-05-26 15:15:46,194 INFO o.a.j.JMeter: Loading user properties from: C:\Jmeter_Installation\apache-jmeter-5.6.3\bin\user.properties
+2026-05-26 15:15:46,194 INFO o.a.j.JMeter: Loading system properties from: C:\Jmeter_Installation\apache-jmeter-5.6.3\bin\system.properties
+2026-05-26 15:15:46,194 INFO o.a.j.JMeter: Setting System property: jmeter=.save.saveservice.output_format=csv
+2026-05-26 15:15:46,244 INFO o.a.j.JMeter: Copyright (c) 1998-2024 The Apache Software Foundation
+2026-05-26 15:15:46,244 INFO o.a.j.JMeter: Version 5.6.3
+2026-05-26 15:15:46,244 INFO o.a.j.JMeter: java.version=17.0.19
+2026-05-26 15:15:46,244 INFO o.a.j.JMeter: java.vm.name=OpenJDK 64-Bit Server VM
+2026-05-26 15:15:46,244 INFO o.a.j.JMeter: os.name=Windows 10
+2026-05-26 15:15:46,244 INFO o.a.j.JMeter: os.arch=amd64
+2026-05-26 15:15:46,244 INFO o.a.j.JMeter: os.version=10.0
+2026-05-26 15:15:46,244 INFO o.a.j.JMeter: file.encoding=Cp1252
+2026-05-26 15:15:46,244 INFO o.a.j.JMeter: java.awt.headless=true
+2026-05-26 15:15:46,244 INFO o.a.j.JMeter: Max memory     =1073741824
+2026-05-26 15:15:46,244 INFO o.a.j.JMeter: Available Processors =4
+2026-05-26 15:15:46,311 INFO o.a.j.JMeter: Default Locale=English (EN)
+2026-05-26 15:15:46,311 INFO o.a.j.JMeter: JMeter  Locale=English (EN)
+2026-05-26 15:15:46,311 INFO o.a.j.JMeter: JMeterHome=C:\Jmeter_Installation\apache-jmeter-5.6.3
+2026-05-26 15:15:46,311 INFO o.a.j.JMeter: user.dir  =C:\Expert-Jmter
+2026-05-26 15:15:46,311 INFO o.a.j.JMeter: PWD       =C:\Expert-Jmter
+2026-05-26 15:15:46,311 INFO o.a.j.JMeter: IP: 172.28.16.1 Name: DESKTOP-SQ059FI FullName: DESKTOP-SQ059FI.mshome.net
+2026-05-26 15:15:46,431 INFO o.a.j.JMeter: Setting property 'jmeter.reportgenerator.outputdir' to:'c:\Expert-Jmter\jmeter-report'
+2026-05-26 15:15:46,442 ERROR o.a.j.JMeter: An error occurred: 
+java.lang.IllegalArgumentException: Report generation requires csv output format, check 'jmeter.save.saveservice.output_format' property
+	at org.apache.jmeter.report.dashboard.ReportGenerator.<init>(ReportGenerator.java:125) ~[ApacheJMeter_core.jar:5.6.3]
+	at org.apache.jmeter.JMeter.start(JMeter.java:484) [ApacheJMeter_core.jar:5.6.3]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569) ~[?:?]
+	at org.apache.jmeter.NewDriver.main(NewDriver.java:259) [ApacheJMeter.jar:5.6.3]

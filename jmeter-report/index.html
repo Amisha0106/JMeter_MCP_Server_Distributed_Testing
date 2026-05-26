@@ -1,0 +1,67 @@
+﻿<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>JMeter Simple Report</title>
+  <style>body{font-family:Arial,Helvetica,sans-serif;margin:20px}table{border-collapse:collapse;width:100%}th,td{border:1px solid #ddd;padding:8px}th{background:#f4f4f4;text-align:left}</style>
+</head>
+<body>
+  <h1>JMeter Simple Report</h1>
+  <h2>Summary</h2>
+  <ul>
+    <li>Total samples: 5000</li>
+    <li>Average elapsed (ms): 1358.01</li>
+    <li>Min elapsed (ms): 0</li>
+    <li>Max elapsed (ms): 24279</li>
+    <li>Error count: 2500</li>
+    <li>Error rate: 50 %</li>
+  </ul>
+  <h2>Top 20 Slowest Samples</h2>
+  <table>
+    <tr><th>elapsed</th><th>label</th><th>responseCode</th><th>success</th><th>threadName</th></tr>    <tr><td>24279</td><td>1 - Request</td><td>404</td><td>false</td><td>Distribute Testing Practice 1-370</td></tr>
+    <tr><td>24276</td><td>1 - Request</td><td>404</td><td>false</td><td>Distribute Testing Practice 1-87</td></tr>
+    <tr><td>24051</td><td>1 - Request</td><td>404</td><td>false</td><td>Distribute Testing Practice 1-428</td></tr>
+    <tr><td>24021</td><td>1 - Request</td><td>Non HTTP response code: org.apache.http.NoHttpResponseException</td><td>false</td><td>Distribute Testing Practice 1-409</td></tr>
+    <tr><td>24012</td><td>1 - Request</td><td>404</td><td>false</td><td>Distribute Testing Practice 1-274</td></tr>
+    <tr><td>23970</td><td>1 - Request</td><td>404</td><td>false</td><td>Distribute Testing Practice 1-310</td></tr>
+    <tr><td>23962</td><td>1 - Request</td><td>404</td><td>false</td><td>Distribute Testing Practice 1-206</td></tr>
+    <tr><td>23931</td><td>1 - Request</td><td>404</td><td>false</td><td>Distribute Testing Practice 1-254</td></tr>
+    <tr><td>23931</td><td>1 - Request</td><td>404</td><td>false</td><td>Distribute Testing Practice 1-448</td></tr>
+    <tr><td>23806</td><td>1 - Request</td><td>Non HTTP response code: org.apache.http.NoHttpResponseException</td><td>false</td><td>Distribute Testing Practice 1-398</td></tr>
+    <tr><td>23797</td><td>1 - Request</td><td>Non HTTP response code: org.apache.http.NoHttpResponseException</td><td>false</td><td>Distribute Testing Practice 1-3</td></tr>
+    <tr><td>23791</td><td>1 - Request</td><td>Non HTTP response code: org.apache.http.NoHttpResponseException</td><td>false</td><td>Distribute Testing Practice 1-118</td></tr>
+    <tr><td>23674</td><td>1 - Request</td><td>Non HTTP response code: org.apache.http.NoHttpResponseException</td><td>false</td><td>Distribute Testing Practice 1-260</td></tr>
+    <tr><td>22587</td><td>1 - Request</td><td>Non HTTP response code: org.apache.http.NoHttpResponseException</td><td>false</td><td>Distribute Testing Practice 1-123</td></tr>
+    <tr><td>22574</td><td>1 - Request</td><td>Non HTTP response code: org.apache.http.NoHttpResponseException</td><td>false</td><td>Distribute Testing Practice 1-344</td></tr>
+    <tr><td>22562</td><td>1 - Request</td><td>Non HTTP response code: org.apache.http.NoHttpResponseException</td><td>false</td><td>Distribute Testing Practice 1-68</td></tr>
+    <tr><td>22556</td><td>1 - Request</td><td>Non HTTP response code: org.apache.http.NoHttpResponseException</td><td>false</td><td>Distribute Testing Practice 1-38</td></tr>
+    <tr><td>22552</td><td>1 - Request</td><td>Non HTTP response code: org.apache.http.NoHttpResponseException</td><td>false</td><td>Distribute Testing Practice 1-200</td></tr>
+    <tr><td>22411</td><td>1 - Request</td><td>Non HTTP response code: org.apache.http.NoHttpResponseException</td><td>false</td><td>Distribute Testing Practice 1-394</td></tr>
+    <tr><td>21705</td><td>1 - Request</td><td>Non HTTP response code: org.apache.http.NoHttpResponseException</td><td>false</td><td>Distribute Testing Practice 1-201</td></tr>
+  </table>
+  <h2>Top Errors (first 20)</h2>
+  <table>
+    <tr><th>elapsed</th><th>label</th><th>responseCode</th><th>responseMessage</th><th>threadName</th></tr>
+    <tr><td>1713</td><td>1 - Request</td><td>404</td><td></td><td>Distribute Testing Practice 1-13</td></tr>
+    <tr><td>6002</td><td>1 - Request</td><td>404</td><td></td><td>Distribute Testing Practice 1-91</td></tr>
+    <tr><td>5632</td><td>1 - Request</td><td>404</td><td></td><td>Distribute Testing Practice 1-98</td></tr>
+    <tr><td>5635</td><td>1 - Request</td><td>404</td><td></td><td>Distribute Testing Practice 1-99</td></tr>
+    <tr><td>6005</td><td>1 - Request</td><td>404</td><td></td><td>Distribute Testing Practice 1-93</td></tr>
+    <tr><td>5661</td><td>1 - Request</td><td>404</td><td></td><td>Distribute Testing Practice 1-101</td></tr>
+    <tr><td>5801</td><td>1 - Request</td><td>404</td><td></td><td>Distribute Testing Practice 1-95</td></tr>
+    <tr><td>5796</td><td>1 - Request</td><td>404</td><td></td><td>Distribute Testing Practice 1-96</td></tr>
+    <tr><td>5795</td><td>1 - Request</td><td>404</td><td></td><td>Distribute Testing Practice 1-94</td></tr>
+    <tr><td>6027</td><td>1 - Request</td><td>404</td><td></td><td>Distribute Testing Practice 1-87</td></tr>
+    <tr><td>1715</td><td>1 - Request</td><td>404</td><td></td><td>Distribute Testing Practice 1-35</td></tr>
+    <tr><td>1701</td><td>1 - Request</td><td>404</td><td></td><td>Distribute Testing Practice 1-56</td></tr>
+    <tr><td>1709</td><td>1 - Request</td><td>404</td><td></td><td>Distribute Testing Practice 1-47</td></tr>
+    <tr><td>1715</td><td>1 - Request</td><td>404</td><td></td><td>Distribute Testing Practice 1-59</td></tr>
+    <tr><td>1181</td><td>1 - Request</td><td>404</td><td></td><td>Distribute Testing Practice 1-77</td></tr>
+    <tr><td>1710</td><td>1 - Request</td><td>404</td><td></td><td>Distribute Testing Practice 1-50</td></tr>
+    <tr><td>1711</td><td>1 - Request</td><td>404</td><td></td><td>Distribute Testing Practice 1-27</td></tr>
+    <tr><td>1718</td><td>1 - Request</td><td>404</td><td></td><td>Distribute Testing Practice 1-14</td></tr>
+    <tr><td>1857</td><td>1 - Request</td><td>404</td><td></td><td>Distribute Testing Practice 1-36</td></tr>
+    <tr><td>1716</td><td>1 - Request</td><td>404</td><td></td><td>Distribute Testing Practice 1-2</td></tr>
+  </table>
+</body>
+</html>
